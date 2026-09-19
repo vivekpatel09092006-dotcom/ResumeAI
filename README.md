@@ -1,6 +1,9 @@
-# ResumeAI Pro — Complete Career Platform
+﻿# ResumeAI Pro — Complete Career Platform
 
 A Flask-based portfolio project combining resume parsing, TF-IDF/cosine matching, ATS-style heuristics, skill-gap analysis, resume builder, job comparison, recommendations, interview practice, application tracking, user accounts and an admin portal.
+
+## Live Demo
+https://resumeai-1-1ltq.onrender.com
 
 ## Run
 ```powershell
@@ -42,3 +45,4 @@ The matching engine is a transparent demo implementation using TF-IDF/cosine sim
 - Results are ranked highest-to-lowest.
 - Resumes meeting the threshold are labeled **SHORTLIST**; the rest are labeled **REJECT** for screening purposes.
 - A recruiter should still review candidates before making a real employment decision.
+
