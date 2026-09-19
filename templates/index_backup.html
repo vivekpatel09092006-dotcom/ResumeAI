@@ -1,0 +1,9 @@
+{% extends "base.html" %}{% block content %}
+<section class="hero"><div class="hero-copy"><span class="eyebrow">AI-POWERED CAREER PLATFORM</span><h1>Match your resume<br><span>to the right job.</span></h1><p>Analyze ATS readiness, job fit, skills, keywords and hiring decision in seconds.</p><div class="chips"><span>🤖 NLP Matching</span><span>📄 PDF / DOCX</span><span>📊 ATS Score</span><span>🌍 20+ Languages</span></div><div class="hero-stats"><div><b>10+</b><small>Career Modules</small></div><div><b>20+</b><small>Languages</small></div><div><b>PDF</b><small>Reports</small></div></div></div>
+<div class="panel"><div class="step">01</div><h2>{{tr.analyze}}</h2><p class="muted">Your uploaded file is stored locally for this demo.</p><form action="{{url_for('analyze')}}" method="post" enctype="multipart/form-data">
+<label class="drop">⬆<strong>{{tr.upload}}</strong><small>PDF or DOCX • Max 8 MB</small><input type="file" name="resume" accept=".pdf,.docx" required></label>
+<label>{{tr.job_title}}<input name="job_title" placeholder="e.g. Data Science Intern"></label>
+<label>{{tr.job_description}}<textarea name="job_description" required placeholder="Paste the complete Job Description here..."></textarea></label>
+<button class="btn primary" type="submit">✨ {{tr.analyze}}</button></form></div></section>
+<section class="feature-grid">{% for icon,title,text in [('🎯','Smart Match','TF-IDF + skills + keyword alignment.'),('🧠','ATS Checker','Structure and keyword readiness.'),('🧩','Skill Gap','Matching and missing skills.'),('📄','PDF Reports','Download professional analysis.'),('🔄','Compare Jobs','Rank one resume against jobs.'),('🗂️','Resume Manager','View and delete uploaded resumes.'),('✍️','Resume Builder','Create and export a resume.'),('🎤','Interview Prep','Practice questions from your match.') ] %}<div class="feature"><span>{{icon}}</span><h3>{{title}}</h3><p>{{text}}</p></div>{% endfor %}</section>
+{% endblock %}

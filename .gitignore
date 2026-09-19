@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+database/*.db
+uploads/*
+reports/*
+!uploads/.gitkeep
+!reports/.gitkeep
+
+# ResumeAI local/private files
+uploads/
+reports/
+*.backup*
+*.before_*
+database/*.db
+__pycache__/
+*.pyc
+

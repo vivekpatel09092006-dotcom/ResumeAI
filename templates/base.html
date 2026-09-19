@@ -1,0 +1,11 @@
+<!doctype html><html lang="{{lang}}" dir="{{'rtl' if lang in ['ar','ur'] else 'ltr'}}"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ResumeAI Pro</title><link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}"></head>
+<body>
+<header class="nav"><a class="brand" href="{{url_for('index')}}"><span class="logo">R</span><b>ResumeAI</b><span class="pro">ULTIMATE</span></a>
+<nav><a href="{{url_for('index')}}">{{tr.home}}</a>{% if user %}<a href="{{url_for('dashboard')}}">{{tr.dashboard}}</a><a href="{{url_for('resumes')}}">{{tr.resumes}}</a><a href="{{url_for('history')}}">{{tr.history}}</a><a href="{{url_for('compare')}}">{{tr.jobs}}</a><a href="{{url_for('bulk_screen')}}">Bulk Screen</a><a href="{{url_for('builder')}}">{{tr.builder}}</a><a href="{{url_for('applications')}}">{{tr.applications}}</a><a href="{{url_for('interview')}}">{{tr.interview}}</a>{% endif %}{% if admin %}<a href="{{url_for('admin')}}">{{tr.admin}}</a>{% endif %}</nav>
+<div class="actions"><select onchange="location.href='/set-language/'+this.value">{% for k,v in langs.items() %}<option value="{{k}}" {% if k==lang %}selected{% endif %}>{{v}}</option>{% endfor %}</select>{% if user %}<a class="btn ghost" href="{{url_for('logout')}}">{{tr.logout}}</a>{% else %}<a class="btn ghost" href="{{url_for('login')}}">{{tr.login}}</a>{% endif %}</div></header>
+{% with msgs=get_flashed_messages() %}{% if msgs %}<div class="toast">{{msgs[-1]}}</div>{% endif %}{% endwith %}
+<main>{% block content %}{% endblock %}</main>
+<footer>ResumeAI Pro • AI/NLP career platform • Built for learning, portfolio and internship projects</footer>
+<script src="{{url_for('static',filename='js/app.js')}}"></script></body></html>

@@ -1,0 +1,28 @@
+﻿{% extends "base.html" %}{% block content %}
+<section class="page-head"><div><span class="eyebrow">RECRUITER SCREENING</span><h1>Bulk Resume <span>Screening</span></h1><p>Upload many PDF/DOCX resumes at once, compare every resume with one Job Description, rank candidates and identify the strongest matches.</p></div></section>
+<section class="bulk-grid">
+<div class="panel">
+<h2>1. Job Requirements</h2>
+<form action="{{url_for('bulk_screen')}}" method="post" enctype="multipart/form-data">
+<label>Job Title<input name="job_title" placeholder="e.g. Data Science Intern" required></label>
+<label>Minimum Match Threshold
+<div class="range-row"><input type="range" name="threshold" id="threshold" min="20" max="95" step="5" value="20" oninput="thresholdValue.textContent=this.value+'%'" required><strong id="thresholdValue">20%</strong></div>
+<small class="muted">Candidates at or above this score are marked <b>SHORTLIST</b>. Others are marked <b>REJECT / REVIEW</b>.</small></label>
+<label>Job Description<textarea name="job_description" rows="12" placeholder="Paste the complete Job Description here..." required></textarea></label>
+<label>2. Upload Resumes
+<input type="file" name="resumes" accept=".pdf,.docx" multiple required>
+<small class="muted">Select multiple PDF/DOCX files together. Maximum 8 MB per file.</small></label>
+<button class="btn primary" type="submit">🚀 Screen All Resumes</button>
+</form>
+</div>
+<div class="panel bulk-info"><h2>How it works</h2>
+<div class="step-card"><b>01</b><span>Upload many resumes in one selection.</span></div>
+<div class="step-card"><b>02</b><span>Extract resume text automatically.</span></div>
+<div class="step-card"><b>03</b><span>Calculate Match, Skills and ATS signals.</span></div>
+<div class="step-card"><b>04</b><span>Rank all candidates from highest to lowest.</span></div>
+<div class="step-card"><b>05</b><span>Mark candidates using your selected threshold.</span></div>
+<div class="notice">⚠️ Screening scores are an AI-assisted ranking signal, not a final hiring decision. A recruiter should review shortlisted and borderline candidates.</div>
+</div></section>
+{% endblock %}
+
+

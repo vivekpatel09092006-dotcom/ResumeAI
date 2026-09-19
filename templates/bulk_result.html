@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block content %}
+<section class="page-head"><div><span class="eyebrow">SCREENING COMPLETE</span><h1>Bulk Screening <span>Results</span></h1><p>{{count}} resumes processed against <b>{{job_title}}</b> with a <b>{{threshold}}%</b> shortlist threshold.</p></div><a class="btn ghost" href="{{url_for('bulk_screen')}}">Screen Again</a></section>
+<section class="stats-grid"><div class="stat"><span>📄 Processed</span><b>{{count}}</b></div><div class="stat"><span>✅ Shortlisted</span><b>{{shortlisted}}</b></div><div class="stat"><span>❌ Below Threshold</span><b>{{rejected}}</b></div><div class="stat"><span>🏆 Top Match</span><b>{{top_score}}%</b></div></section>
+<section class="panel"><div class="table-head"><h2>Ranked Candidates</h2><span class="muted">Highest score first</span></div>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>Resume</th><th>Match</th><th>ATS</th><th>Skills</th><th>Decision</th><th>Reason</th></tr></thead><tbody>
+{% for r in results %}<tr><td>{{loop.index}}</td><td><strong>{{r.name}}</strong></td><td><span class="score">{{r.score}}%</span></td><td>{{r.ats_score}}%</td><td>{{r.skill_score}}%</td><td><span class="badge {{r.decision|lower}}">{{r.decision}}</span></td><td>{{r.reason}}</td></tr>{% endfor %}
+</tbody></table></div></section>
+<section class="panel"><h2>Shortlisted Candidates</h2>{% if shortlisted_rows %}<div class="candidate-grid">{% for r in shortlisted_rows %}<div class="candidate"><span class="rank">#{{loop.index}}</span><h3>{{r.name}}</h3><div class="big-score">{{r.score}}%</div><p>ATS {{r.ats_score}}% • Skills {{r.skill_score}}% • Keywords {{r.keyword_rate}}%</p></div>{% endfor %}</div>{% else %}<p class="muted">No candidate reached the selected threshold.</p>{% endif %}</section>
+{% if skipped %}<section class="panel"><h2>Skipped Files</h2><ul>{% for x in skipped %}<li>{{x}}</li>{% endfor %}</ul></section>{% endif %}
+<div class="notice">⚠️ This bulk screen is intended for portfolio/educational screening support. Do not use the score as the sole basis for a real employment decision; keep human review in the loop.</div>
+{% endblock %}
