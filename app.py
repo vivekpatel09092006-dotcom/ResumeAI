@@ -1,4 +1,5 @@
-﻿from flask import Flask, render_template, request, redirect, url_for, flash, session, send_file, jsonify
+import os
+from flask import Flask, render_template, request, redirect, url_for, flash, session, send_file, jsonify
 from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
@@ -414,7 +415,7 @@ def admin_user_delete(uid):
 @app.route("/health")
 def health(): return jsonify({"status":"ok","service":"ResumeAI Pro Career Platform"})
 
-if __name__=="__main__": app.run(debug=True, port=5001)
+if __name__=="__main__": app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5002)))
 
 
 
