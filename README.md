@@ -10,7 +10,7 @@ https://resumeai-1-1ltq.onrender.com
 python -m pip install -r requirements.txt
 python app.py
 ```
-Open http://127.0.0.1:5000
+Open http://127.0.0.1:5001
 
 ## Admin demo
 Username: `admin`
