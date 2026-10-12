@@ -95,7 +95,8 @@ def set_language(code):
 
 @app.route("/")
 def index(): return render_template("index.html")
-    @app.route('/sitemap.xml')
+    # Sitemap Route
+@app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory('static', 'sitemap.xml')
 
