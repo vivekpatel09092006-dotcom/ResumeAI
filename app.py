@@ -1,5 +1,6 @@
 import os
 from flask import Flask, render_template, request, redirect, url_for, flash, session, send_file, jsonify
+from flask import send_from_directory
 from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
@@ -94,6 +95,9 @@ def set_language(code):
 
 @app.route("/")
 def index(): return render_template("index.html")
+    @app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('static', 'sitemap.xml')
 
 @app.route("/register",methods=["GET","POST"])
 def register():
