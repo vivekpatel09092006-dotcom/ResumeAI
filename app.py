@@ -29,10 +29,10 @@ T={
 "te":{"home":"హోమ్","dashboard":"డాష్‌బోర్డ్","resumes":"నా రెజ్యూమేలు","history":"చరిత్ర","jobs":"ఉద్యోగాల పోలిక","builder":"రెజ్యూమే బిల్డర్","applications":"దరఖాస్తులు","interview":"ఇంటర్వ్యూ సిద్ధత","admin":"అడ్మిన్","login":"లాగిన్","logout":"లాగౌట్","analyze":"రెజ్యూమే విశ్లేషణ","upload":"రెజ్యూమే అప్‌లోడ్","job_title":"ఉద్యోగ శీర్షిక","job_description":"ఉద్యోగ వివరణ","download":"నివేదిక డౌన్‌లోడ్","delete":"తొలగించు","save":"సేవ్","recommend":"ఉద్యోగ సూచనలు"},
 "mr":{"home":"मुख्यपृष्ठ","dashboard":"डॅशबोर्ड","resumes":"माझे रिझ्युमे","history":"इतिहास","jobs":"नोकरी तुलना","builder":"रिझ्युमे बिल्डर","applications":"अर्ज","interview":"मुलाखत तयारी","admin":"अॅडमिन","login":"लॉगिन","logout":"लॉगआउट","analyze":"रिझ्युमे विश्लेषण","upload":"रिझ्युमे अपलोड","job_title":"नोकरीचे शीर्षक","job_description":"नोकरीचे वर्णन","download":"अहवाल डाउनलोड","delete":"हटवा","save":"जतन करा","recommend":"नोकरीच्या शिफारसी"},
 "ta":{"home":"முகப்பு","dashboard":"டாஷ்போர்டு","resumes":"என் ரெஸ்யூமேக்கள்","history":"வரலாறு","jobs":"வேலை ஒப்பீடு","builder":"ரெஸ்யூமே உருவாக்கி","applications":"விண்ணப்பங்கள்","interview":"நேர்காணல் தயாரிப்பு","admin":"நிர்வாகம்","login":"உள்நுழைவு","logout":"வெளியேறு","analyze":"ரெஸ்யூமே பகுப்பாய்வு","upload":"ரெஸ்யூமே பதிவேற்றம்","job_title":"வேலை தலைப்பு","job_description":"வேலை விளக்கம்","download":"அறிக்கையை பதிவிறக்கு","delete":"நீக்கு","save":"சேமி","recommend":"வேலை பரிந்துரைகள்"},
-"gu":{"home":"હોમ","dashboard":"ડેશબોર્ડ","resumes":"મારા રિઝ્યુમે","history":"ઇતિહાસ","jobs":"નોકરી સરખામણી","builder":"રિઝ્યુમે બિલ્ડર","applications":"અરજીઓ","interview":"ઇન્ટરવ્યુ તૈયારી","admin":"એડમિન","login":"લૉગિન","logout":"લૉગઆઉટ","analyze":"રિઝ્યુમે વિશ્લેષણ","upload":"રિઝ્યુમે અપલોડ","job_title":"નોકરીનું શીર્ષક","job_description":"નોકરીનું વર્ણન","download":"રિપોર્ટ ડાઉનલોડ","delete":"કાઢી નાખો","save":"સાચવો","recommend":"નોકરીની ભલામણો"},
+"gu":{"home":"હોમ","dashboard":"ડેશબોર્ડ","resumes":"મારા રિઝ્યુમે","history":"ઇતિહાસ","jobs":"નોકરી સરખામણી","builder":"રિઝ્યુમે બિલ્ડર","applications":"અરજીઓ","interview":"ઇન્ટરવ્યુ તૈયારી","admin":"એડમિન","login":"લૉગિન","logout":"લૉગઆઉટ","analyze":"રિઝ્યુમે વિશ્લેષણ","upload":"રિઝ્યુમે અપલોડ","job_title":"નોકરીનું શીર્ષક","job_description":"નોકરીનું વર્ણન","download":"રિપોર્ટ ડાઉનलोड","delete":"કાઢી નાખો","save":"સાચવો","recommend":"નોકરીની ભલામણો"},
 "kn":{"home":"ಮುಖಪುಟ","dashboard":"ಡ್ಯಾಶ್‌ಬೋರ್ಡ್","resumes":"ನನ್ನ ರೆಸ್ಯೂಮೆಗಳು","history":"ಇತಿಹಾಸ","jobs":"ಉದ್ಯೋಗ ಹೋಲಿಕೆ","builder":"ರೆಸ್ಯೂಮೆ ಬಿಲ್ಡರ್","applications":"ಅರ್ಜಿಗಳು","interview":"ಸಂದರ್ಶನ ತಯಾರಿ","admin":"ನಿರ್ವಾಹಕ","login":"ಲಾಗಿನ್","logout":"ಲಾಗ್‌ಔಟ್","analyze":"ರೆಸ್ಯೂಮೆ ವಿಶ್ಲೇಷಣೆ","upload":"ರೆಸ್ಯೂಮೆ ಅಪ್‌ಲೋಡ್","job_title":"ಉದ್ಯೋಗ ಶೀರ್ಷಿಕೆ","job_description":"ಉದ್ಯೋಗ ವಿವರಣೆ","download":"ವರದಿ ಡೌನ್‌ಲೋಡ್","delete":"ಅಳಿಸಿ","save":"ಉಳಿಸಿ","recommend":"ಉದ್ಯೋಗ ಶಿಫಾರಸುಗಳು"},
-"ml":{"home":"ഹോം","dashboard":"ഡാഷ്ബോർഡ്","resumes":"എന്റെ റെസ്യൂമുകൾ","history":"ചരിത്രം","jobs":"ജോലി താരതമ്യം","builder":"റെസ്യൂമെ ബിൽഡർ","applications":"അപേക്ഷകൾ","interview":"ഇന്റർവ്യൂ തയ്യാറെടുപ്പ്","admin":"അഡ്മിൻ","login":"ലോഗിൻ","logout":"ലോഗൗട്ട്","analyze":"റെസ്യൂമെ വിശകലനം","upload":"റെസ്യൂമെ അപ്‌ലോഡ്","job_title":"ജോലി ശീർഷകം","job_description":"ജോലി വിവരണം","download":"റിപ്പോർട്ട് ഡൗൺലോഡ്","delete":"ഇല്ലാതാക്കുക","save":"സംരക്ഷിക്കുക","recommend":"ജോലി ശുപാർശകൾ"},
-"pa":{"home":"ਹੋਮ","dashboard":"ਡੈਸ਼ਬੋਰਡ","resumes":"ਮੇਰੇ ਰਿਜ਼ਿਊਮੇ","history":"ਇਤਿਹਾਸ","jobs":"ਨੌਕਰੀ ਤੁਲਨਾ","builder":"ਰਿਜ਼ਿਊਮੇ ਬਿਲਡਰ","applications":"ਅਰਜ਼ੀਆਂ","interview":"ਇੰਟਰਵਿਊ ਤਿਆਰੀ","admin":"ਐਡਮਿਨ","login":"ਲੌਗਇਨ","logout":"ਲੌਗਆਉਟ","analyze":"ਰਿਜ਼ਿਊਮੇ ਵਿਸ਼ਲੇਸ਼ਣ","upload":"ਰਿਜ਼ਿਊਮੇ ਅੱਪਲੋਡ","job_title":"ਨੌਕਰੀ ਦਾ ਸਿਰਲੇਖ","job_description":"ਨੌਕਰੀ ਦਾ ਵੇਰਵਾ","download":"ਰਿਪੋਰਟ ਡਾਊਨਲੋਡ","delete":"ਮਿਟਾਓ","save":"ਸੇਵ","recommend":"ਨੌਕਰੀ ਦੀਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ"},
+"ml":{"home":"ഹോം","dashboard":"ഡാഷ്ബോർഡ്","resumes":"എന്റെ റെസ്യൂമുകൾ","history":"ചരിത്രം","jobs":"ജോലി താരതമ്യം","builder":"റെസ്യൂമെ ബിൽഡർ","applications":"അപേക്ഷകൾ","interview":"ഇന്റർവ്യൂ തയ്യാറെടുപ്പ്","admin":"അഡ്മിൻ","login":"ലോഗിൻ","logout":"ലോഗൗട്ട്","analyze":"റെസ്യൂമെ വിശകലനം","upload":"റെസ്യൂമെ അപ്‌ಲೋഡ്","job_title":"ജോലി ശീർഷകം","job_description":"ജോലി വിവരണം","download":"റിപ്പോർട്ട് ഡൗൺലോഡ്","delete":"ഇല്ലാതാക്കുക","save":"സംരക്ഷിക്കുക","recommend":"ജോലി ശുപാർശകൾ"},
+"pa":{"home":"ਹੋਮ","dashboard":"ਡੈਸ਼ਬોર્ਡ","resumes":"ਮੇਰੇ ਰਿਜ਼ਿਊਮੇ","history":"ਇਤਿਹਾਸ","jobs":"ਨੌਕਰੀ ਤੁਲਨਾ","builder":"ਰਿਜ਼ਿਊਮੇ ਬਿਲਡਰ","applications":"ਅਰਜ਼ੀਆਂ","interview":"ਇੰਟਰਵਿਊ ਤਿਆਰੀ","admin":"ਐਡમਿਨ","login":"ਲੌਗਇਨ","logout":"ਲੌਗਆਉਟ","analyze":"ਰਿਜ਼ਿਊਮੇ ਵਿਸ਼ਲੇਸ਼ਣ","upload":"ਰਿਜ਼ਿਊਮੇ ਅੱਪਲੋਡ","job_title":"ਨੌਕਰੀ ਦਾ ਸਿਰਲੇਖ","job_description":"ਨੌਕਰੀ ਦਾ ਵੇਰਵਾ","download":"ਰਿਪੋਰਟ ਡਾਊਨਲੋਡ","delete":"ਮਿਟਾਓ","save":"ਸੇਵ","recommend":"ਨੌਕਰੀ ਦੀਆਂ ਸਿਫ਼ਾਰਸ਼ਾਂ"},
 "ur":{"home":"ہوم","dashboard":"ڈیش بورڈ","resumes":"میرے ریزیومے","history":"تاریخ","jobs":"ملازمت کا موازنہ","builder":"ریزیومے بلڈر","applications":"درخواستیں","interview":"انٹرویو کی تیاری","admin":"ایڈمن","login":"لاگ ان","logout":"لاگ آؤٹ","analyze":"ریزیومے کا تجزیہ","upload":"ریزیومے اپ لوڈ","job_title":"ملازمت کا عنوان","job_description":"ملازمت کی تفصیل","download":"رپورٹ ڈاؤن لوڈ","delete":"حذف کریں","save":"محفوظ کریں","recommend":"ملازمت کی سفارشات"},
 "es":{"home":"Inicio","dashboard":"Panel","resumes":"Mis currículums","history":"Historial","jobs":"Comparar empleos","builder":"Creador de currículum","applications":"Solicitudes","interview":"Preparación de entrevista","admin":"Administrador","login":"Iniciar sesión","logout":"Cerrar sesión","analyze":"Analizar currículum","upload":"Subir currículum","job_title":"Título del empleo","job_description":"Descripción del empleo","download":"Descargar informe","delete":"Eliminar","save":"Guardar","recommend":"Recomendaciones de empleo"},
 "fr":{"home":"Accueil","dashboard":"Tableau de bord","resumes":"Mes CV","history":"Historique","jobs":"Comparer les emplois","builder":"Créateur de CV","applications":"Candidatures","interview":"Préparation à l'entretien","admin":"Administrateur","login":"Connexion","logout":"Déconnexion","analyze":"Analyser le CV","upload":"Télécharger le CV","job_title":"Intitulé du poste","job_description":"Description du poste","download":"Télécharger le rapport","delete":"Supprimer","save":"Enregistrer","recommend":"Recommandations d'emploi"},
@@ -95,7 +95,8 @@ def set_language(code):
 
 @app.route("/")
 def index(): return render_template("index.html")
-    # Sitemap Route
+
+# Sitemap Route
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory('static', 'sitemap.xml')
@@ -222,7 +223,6 @@ def bulk_screen():
         if ext not in ALLOWED:
             skipped.append(name + " (unsupported format)")
             continue
-        # Per-file safety limit while allowing a larger total batch.
         try:
             f.stream.seek(0, os.SEEK_END)
             size = f.stream.tell()
@@ -370,8 +370,8 @@ def report(aid):
     from reportlab.lib.styles import getSampleStyleSheet
     r=json.loads(a["result_json"]); out=REPORTS/f"analysis_{aid}.pdf"; styles=getSampleStyleSheet()
     doc=SimpleDocTemplate(str(out),pagesize=A4,rightMargin=40,leftMargin=40,topMargin=40,bottomMargin=40)
-    story=[Paragraph("ResumeAI Pro â€” Analysis Report",styles["Title"]),Paragraph(f"Job: {a['job_title']}",styles["Heading2"]),Paragraph(f"Match Score: {r['score']}% | ATS: {r['ats_score']}%",styles["BodyText"]),Paragraph(f"Decision: {r['decision']} â€” {r['decision_reason']}",styles["BodyText"]),Spacer(1,12)]
-    for label,val in [("Matching Skills",", ".join(r["matching_skills"]) or "None"),("Missing Skills",", ".join(r["missing_skills"]) or "None"),("Keyword Coverage",f"{r['keyword_rate']}%"),("Suggestions","<br/>".join("â€¢ "+x for x in r["suggestions"]))]:
+    story=[Paragraph("ResumeAI Pro — Analysis Report",styles["Title"]),Paragraph(f"Job: {a['job_title']}",styles["Heading2"]),Paragraph(f"Match Score: {r['score']}% | ATS: {r['ats_score']}%",styles["BodyText"]),Paragraph(f"Decision: {r['decision']} — {r['decision_reason']}",styles["BodyText"]),Spacer(1,12)]
+    for label,val in [("Matching Skills",", ".join(r["matching_skills"]) or "None"),("Missing Skills",", ".join(r["missing_skills"]) or "None"),("Keyword Coverage",f"{r['keyword_rate']}%"),("Suggestions","<br/>".join("• "+x for x in r["suggestions"]))]:
         story += [Paragraph(label,styles["Heading2"]),Paragraph(val,styles["BodyText"]),Spacer(1,8)]
     doc.build(story); return send_file(out,as_attachment=True,download_name=f"ResumeAI_Analysis_{aid}.pdf")
 
@@ -400,35 +400,5 @@ def admin():
     stats={"users":len(users),"analyses":len(analyses),"jobs":len(jobs),"applications":apps}
     c.close(); return render_template("admin.html",users=users,analyses=analyses,jobs=jobs,stats=stats)
 
-@app.route("/admin/job",methods=["POST"])
-@admin_required
-def admin_job():
-    c=conn(); c.execute("INSERT INTO jobs(recruiter_name,title,company,description,created_at) VALUES(?,?,?,?,?)",(request.form.get("recruiter_name"),request.form.get("title"),request.form.get("company"),request.form.get("description"),now())); c.commit(); c.close(); return redirect(url_for("admin"))
-
-@app.route("/admin/analysis/delete/<int:aid>",methods=["POST"])
-@admin_required
-def admin_analysis_delete(aid):
-    c=conn(); c.execute("DELETE FROM analyses WHERE id=?",(aid,)); c.commit(); c.close(); return redirect(url_for("admin"))
-
-@app.route("/admin/user/delete/<int:uid>",methods=["POST"])
-@admin_required
-def admin_user_delete(uid):
-    c=conn(); rs=c.execute("SELECT stored_name FROM resumes WHERE user_id=?",(uid,)).fetchall()
-    for r in rs: del_upload(r["stored_name"])
-    c.execute("DELETE FROM users WHERE id=?",(uid,)); c.commit(); c.close(); return redirect(url_for("admin"))
-
-@app.route("/health")
-def health(): return jsonify({"status":"ok","service":"ResumeAI Pro Career Platform"})
-
-if __name__=="__main__": app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5002)))
-
-
-
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
